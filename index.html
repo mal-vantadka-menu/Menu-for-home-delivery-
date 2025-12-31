@@ -869,7 +869,7 @@ function renderCart(){
 
     subtotal += parseFloat(obj.price) * obj.qty;
   }
-  var discount = subtotal * 0.10;
+  var discount = subtotal * 0;
   var afterDiscount = subtotal - discount;
   var cgst = afterDiscount * 0.025;
   var sgst = afterDiscount * 0.025;
@@ -893,7 +893,7 @@ function generateMessage(){
       subtotal += o.price * o.qty;
     }
   }
-  var discount = subtotal * 0.10;
+  var discount = subtotal * 0;
   var afterDiscount = subtotal - discount;
   var cgst = afterDiscount * 0.025;
   var sgst = afterDiscount * 0.025;
