@@ -214,7 +214,7 @@
 <div class="overlay">
   <h1>Home Delivery Menu</h1>
   <h2>Malvan Tadka Kharghar<br/>
-    <span style="font-size:14px;color:#b85c00;">10% discount on home delivery</span>
+    <span style="font-size:14px;color:#b85c00;">today no discount on home delivery</span>
   </h2>
 
   <input type="text" id="searchBar" placeholder="Search item..." style="width:100%;padding:10px;font-size:16px;margin-bottom:15px;border-radius:8px;border:1px solid #ccc;">
@@ -877,7 +877,7 @@ function renderCart(){
   var summary = document.createElement('div');
   summary.style.marginTop = '10px';
   summary.innerHTML = '<hr><div>Subtotal: ₹' + subtotal.toFixed(2) + '</div>' +
-    '<div>Discount (10%): -₹' + discount.toFixed(02) + '</div>' +
+    '<div>Discount (0%): -₹' + discount.toFixed(02) + '</div>' +
     '<div>CGST (2.5%): ₹' + cgst.toFixed(2) + '</div>' +
     '<div>SGST (2.5%): ₹' + sgst.toFixed(2) + '</div>' +
     '<hr><div style="font-weight:bold;">Grand Total: ₹' + grandTotal + '</div>';
